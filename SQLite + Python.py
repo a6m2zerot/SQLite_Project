@@ -16,4 +16,5 @@ conn.commit()
 cursor.execute("""SELECT * FROM MyBooks;""")
 for elem in cursor.fetchall():
     print(elem)
+print("*********")
 
